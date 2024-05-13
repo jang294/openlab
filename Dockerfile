@@ -1,3 +1,3 @@
 FROM nginx
 
-RUN echo "DEVOCEAN OpenLAB" > /usr/share/nginx/html/index.html
+RUN echo -e "DEVOCEAN OpenLAB - v 1.0\n Blue/Green Test" > /usr/share/nginx/html/index.html
